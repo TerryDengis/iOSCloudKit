@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE331C8321C6FA250026F7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE331C8221C6FA250026F7CF /* AppDelegate.swift */; };
+		FE331C8521C6FA250026F7CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE331C8421C6FA250026F7CF /* ViewController.swift */; };
+		FE331C8821C6FA250026F7CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE331C8621C6FA250026F7CF /* Main.storyboard */; };
+		FE331C8A21C6FA260026F7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE331C8921C6FA260026F7CF /* Assets.xcassets */; };
+		FE331C8D21C6FA260026F7CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE331C8B21C6FA260026F7CF /* LaunchScreen.storyboard */; };
+		FE331C9721C6FA3F0026F7CF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE331C9621C6FA3F0026F7CF /* CloudKit.framework */; };
+		FE331C9921C7190E0026F7CF /* CloudKitManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE331C9821C7190E0026F7CF /* CloudKitManger.swift */; };
+		FE331C9B21C747C90026F7CF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE331C9A21C747C90026F7CF /* DataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE331C7F21C6FA250026F7CF /* CloudKitDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKitDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE331C8221C6FA250026F7CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE331C8421C6FA250026F7CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE331C8721C6FA250026F7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE331C8921C6FA260026F7CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE331C8C21C6FA260026F7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE331C8E21C6FA260026F7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE331C9421C6FA3B0026F7CF /* CloudKitDB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitDB.entitlements; sourceTree = "<group>"; };
+		FE331C9621C6FA3F0026F7CF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		FE331C9821C7190E0026F7CF /* CloudKitManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManger.swift; sourceTree = "<group>"; };
+		FE331C9A21C747C90026F7CF /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE331C7C21C6FA250026F7CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE331C9721C6FA3F0026F7CF /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE331C7621C6FA250026F7CF = {
+			isa = PBXGroup;
+			children = (
+				FE331C8121C6FA250026F7CF /* CloudKitDB */,
+				FE331C8021C6FA250026F7CF /* Products */,
+				FE331C9521C6FA3F0026F7CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE331C8021C6FA250026F7CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE331C7F21C6FA250026F7CF /* CloudKitDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE331C8121C6FA250026F7CF /* CloudKitDB */ = {
+			isa = PBXGroup;
+			children = (
+				FE331C9421C6FA3B0026F7CF /* CloudKitDB.entitlements */,
+				FE331C8221C6FA250026F7CF /* AppDelegate.swift */,
+				FE331C8421C6FA250026F7CF /* ViewController.swift */,
+				FE331C8621C6FA250026F7CF /* Main.storyboard */,
+				FE331C8921C6FA260026F7CF /* Assets.xcassets */,
+				FE331C8B21C6FA260026F7CF /* LaunchScreen.storyboard */,
+				FE331C8E21C6FA260026F7CF /* Info.plist */,
+				FE331C9821C7190E0026F7CF /* CloudKitManger.swift */,
+				FE331C9A21C747C90026F7CF /* DataModel.swift */,
+			);
+			path = CloudKitDB;
+			sourceTree = "<group>";
+		};
+		FE331C9521C6FA3F0026F7CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE331C9621C6FA3F0026F7CF /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE331C7E21C6FA250026F7CF /* CloudKitDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE331C9121C6FA260026F7CF /* Build configuration list for PBXNativeTarget "CloudKitDB" */;
+			buildPhases = (
+				FE331C7B21C6FA250026F7CF /* Sources */,
+				FE331C7C21C6FA250026F7CF /* Frameworks */,
+				FE331C7D21C6FA250026F7CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudKitDB;
+			productName = CloudKitDB;
+			productReference = FE331C7F21C6FA250026F7CF /* CloudKitDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE331C7721C6FA250026F7CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Terry Dengis";
+				TargetAttributes = {
+					FE331C7E21C6FA250026F7CF = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FE331C7A21C6FA250026F7CF /* Build configuration list for PBXProject "CloudKitDB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE331C7621C6FA250026F7CF;
+			productRefGroup = FE331C8021C6FA250026F7CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE331C7E21C6FA250026F7CF /* CloudKitDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE331C7D21C6FA250026F7CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE331C8D21C6FA260026F7CF /* LaunchScreen.storyboard in Resources */,
+				FE331C8A21C6FA260026F7CF /* Assets.xcassets in Resources */,
+				FE331C8821C6FA250026F7CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE331C7B21C6FA250026F7CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE331C8521C6FA250026F7CF /* ViewController.swift in Sources */,
+				FE331C9B21C747C90026F7CF /* DataModel.swift in Sources */,
+				FE331C9921C7190E0026F7CF /* CloudKitManger.swift in Sources */,
+				FE331C8321C6FA250026F7CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE331C8621C6FA250026F7CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE331C8721C6FA250026F7CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE331C8B21C6FA260026F7CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE331C8C21C6FA260026F7CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE331C8F21C6FA260026F7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE331C9021C6FA260026F7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE331C9221C6FA260026F7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudKitDB/CloudKitDB.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WA3Q4R937;
+				INFOPLIST_FILE = CloudKitDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wavelength.CloudKitDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE331C9321C6FA260026F7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CloudKitDB/CloudKitDB.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8WA3Q4R937;
+				INFOPLIST_FILE = CloudKitDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wavelength.CloudKitDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE331C7A21C6FA250026F7CF /* Build configuration list for PBXProject "CloudKitDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE331C8F21C6FA260026F7CF /* Debug */,
+				FE331C9021C6FA260026F7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE331C9121C6FA260026F7CF /* Build configuration list for PBXNativeTarget "CloudKitDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE331C9221C6FA260026F7CF /* Debug */,
+				FE331C9321C6FA260026F7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE331C7721C6FA250026F7CF /* Project object */;
+}
